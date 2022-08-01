@@ -1,0 +1,46 @@
+{
+  "name": "rest.test",
+  "version": "1.0.0",
+  "description": "Just An API Done For Testing Purposes [A Technical Test]",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milo40/RestAPIImpl.git"
+  },
+  "keywords": [
+    "Rest",
+    "API",
+    "Futur",
+    "Tech",
+    "Technical",
+    "Test",
+    "Test",
+    "Lite"
+  ],
+  "author": "Milo40",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Milo40/RestAPIImpl/issues"
+  },
+  "homepage": "https://github.com/Milo40/RestAPIImpl#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "chalk": "^5.0.1",
+    "chalkercli": "^1.6.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "find-config": "^1.0.0",
+    "json-stringify-safe": "^5.0.1",
+    "mongoose": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
